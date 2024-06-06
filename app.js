@@ -81,7 +81,8 @@ try {
     }
     else{
     msg.innerText=  data +" "+ tocurr.value  ; 
-    msg.style.backgroundColor ="rgba(5, 2, 38, 0.2)";
+    msg.style.backgroundColor ="rgb(201, 203, 202,0.2)";
+    msg.style.color="white"
     }
 
 } catch (error) {

@@ -14,12 +14,13 @@ body{
 }
 .total{
     padding: 20vh;
+    
 }
 .container{
-    
-background-color:#e2fefa;
+    color: white;
+background-color:rgb(1, 10, 54,0.6);
 padding: 2rem;
-
+border: white;
 border-radius: 16px;
 min-height: 45vh;
 width: 40vh;
@@ -47,11 +48,12 @@ form  #input,select,button{
 }
 form input{
     
-    background-color: #C2E7DA;
-    border:1px solid  #c9c4c4;
+    background-color: rgb(201, 203, 202,0.2);
+    border:1px solid  #5c5c5c;
     font-size:  1rem; 
     height: 3rem;
     padding-left: 0.5rem;
+    color: white;
     
 }
 
@@ -68,7 +70,7 @@ form input{
     
 }
 .select-container{
-    background-color: #fffefe;
+    background-color:rgb(201, 203, 202,0.2);
     border: 1px solid #c3bfbf;
     border-radius: 12px;
     display: flex;
@@ -80,7 +82,8 @@ form input{
     
 }
 form select{
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(243, 243, 243, 0.6);
+    
     height: 2.5rem
 }
 form button{
@@ -88,7 +91,7 @@ form button{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid  rgb(9, 110, 19);
+    border: 1px solid  rgb(6, 97, 15);
     height: 4rem;
     background-color: #050012;
     color: #C2E7DA;
@@ -100,6 +103,8 @@ form button{
     font-size: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+
     
 }
 #from,#To{
@@ -111,7 +116,7 @@ form button{
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-size: 2rem;
-    border: 1px solid black;
+    border: 1px solid rgb(199, 198, 198);
     border-radius: 10px;
     display: flex;
     justify-content:center;
