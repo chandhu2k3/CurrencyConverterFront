@@ -1,0 +1,120 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ background-image:url("images/currb.jpg") ;
+ 
+}
+.total{
+    padding: 20vh;
+}
+.container{
+    
+background-color:#e2fefa;
+padding: 2rem;
+
+border-radius: 16px;
+min-height: 45vh;
+width: 40vh;
+
+
+}
+
+
+.amount{
+    padding-top: 2rem;
+    
+    
+
+}
+#Enter{
+    display: flex;
+    justify-content: center;
+    
+}
+form  #input,select,button{
+    width: 100%;
+    
+    border-radius:12px ;
+
+}
+form input{
+    
+    background-color: #C2E7DA;
+    border:1px solid  #c9c4c4;
+    font-size:  1rem; 
+    height: 3rem;
+    padding-left: 0.5rem;
+    
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.select-container img{
+    max-width : 3.5rem;
+    padding-right: 0.3rem;
+    padding-left: 0.1rem;
+    
+}
+.select-container{
+    background-color: #fffefe;
+    border: 1px solid #c3bfbf;
+    border-radius: 12px;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-top:0.75rem ;
+     padding-bottom: 0.75rem;
+    width: 7.3rem;
+    
+}
+form select{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 2.5rem
+}
+form button{
+    font-size:1.3rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid  rgb(9, 110, 19);
+    height: 4rem;
+    background-color: #050012;
+    color: #C2E7DA;
+    cursor: pointer;
+    
+}
+
+.msg{
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+#from,#To{
+    display: flex;
+    justify-content: center;
+    
+}
+.msg p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content:center;
+    
+    
+}
